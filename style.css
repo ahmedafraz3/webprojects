@@ -1,0 +1,783 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+h3{
+    color: #ffffff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.headerNav{
+    display: grid;
+    grid-template-rows: auto auto;
+    /* grid-template-columns: auto auto auto; */
+    gap: 20%;
+    margin-bottom: 5%;
+}
+.header-Container #number{
+    display: grid;
+    padding-top: 7%;
+    align-self: center;
+    /* grid-auto-flow: column; */
+
+}
+
+
+.headerNav ul {
+    border: 0; /* Remove any border */
+    margin: 0; /* Remove any margin */
+}
+
+.header-Container ul{
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: auto auto auto;
+}
+.nav-Container{
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    margin-left:5px;
+    margin-right: 19px;
+    margin-bottom: 3%;
+}
+header{
+    background-color:rgb(255, 255, 255);
+}
+header ul li h4
+{
+    margin-top: 50px;
+    font-family:sans-serif ;
+    margin-left: 80px;
+    color: #d71a21;
+   text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li #number
+{
+    
+    margin-left: 110px;
+    
+}
+.socialicons{
+    padding-left: 10%;
+    
+}
+header ul li #fblogo img
+{
+    width: auto;
+    height: auto;
+    margin-left:195px ;
+    padding-top: 22px ;
+}
+header ul li #gllogo img
+{
+    width: auto;
+    height: auto;
+    margin-left:-6px ;
+    margin-bottom: 2px;
+}
+header ul li #twtlogo img
+{
+    width: auto;
+    height: auto;
+    margin-left:-2px ;
+    margin-bottom: 1px;
+}
+header ul{
+    border-bottom: 1px solid rgb(209,209,209);
+    padding-bottom: 8px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 74px;
+    font-family:sans-serif ;
+    font-weight: bold;
+    color: rgb(123, 121, 121);
+    
+}
+nav ul li h4 a{
+    text-decoration: none;
+    color: rgb(123, 121, 121);
+}
+nav ul{
+    margin-left: 153px;
+    margin-top: -23px;
+    margin-bottom: -8px;
+}
+
+.first{
+    width: auto;
+    height: auto;
+    margin-top: -3%;
+}
+
+/* cartypes start */
+.cartypes{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+     grid-template-rows: 1fr;
+   grid-template-columns:20% 20% 20% 20%;
+    justify-content: center;
+    grid-gap: 2%;
+    background-color:rgb(37, 40, 57);
+    margin-top: -5px;
+    padding-bottom: 70px;
+    margin-right: 8%;
+}
+
+.cartypes ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.cartypes div{  /*.cartypes ul li*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.cartypes #towncar {
+    row-gap: 11%;
+    grid-template-rows: auto auto auto;
+    width: auto;
+    height: auto;
+    display: grid;
+    margin-top: 20%;
+}
+
+.cartypes #towncar .type
+{
+    background-color:#d71a21;
+    /* padding:0px 120px; */
+    overflow: hidden;
+}
+
+
+.cartypes #limousine{
+    row-gap: 11%;
+    grid-template-rows: auto auto auto;
+    width: auto;
+    height: auto;
+    display: grid;
+    margin-top: 20%;
+}
+
+.cartypes #limousine .type
+{
+    background-color:#d71a21;
+    /* padding:0px 120px; */
+    overflow: hidden;
+}
+
+.cartypes #executive 
+{
+    row-gap: 11%;
+    grid-template-rows: auto auto auto;
+    column-gap: -23%;
+    width: auto;
+    height: auto;
+    display: grid;
+    margin-top: 20%;
+}
+
+.cartypes #executive .type
+{
+    background-color:#d71a21;
+    /* padding:0px 100px; */
+    overflow: hidden;
+}
+
+.cartypes #minibus 
+{
+    row-gap: 11%;
+    grid-template-rows: auto auto auto;
+    column-gap: -23%;
+    width: auto;
+    height: auto;
+    display: grid;
+    margin-top: 20%;
+}
+.cartypes #minibus .type
+{
+    background-color:#d71a21;
+    overflow: hidden;
+    /* padding:0px 120px; */
+}
+.cartypes #towncar
+{
+    background-color: rgb(80, 80, 80);
+}
+.cartypes #limousine
+{
+    background-color: rgb(80, 80, 80);
+}
+.cartypes #executive
+{
+    background-color: rgb(80, 80, 80);
+}
+.cartypes #minibus
+{
+    background-color: rgb(80, 80, 80);
+}
+.cartypes ul li .seats {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  .seatsPassenger{
+    display: grid;
+    align-self: center;
+    padding: 12%;
+    padding-left: 18%;
+  }
+  .typeLimosine{
+    display: grid;
+    align-self: center;
+    padding: 12%;
+    padding-left: 22%;
+
+  }
+
+  .typeExecutive{
+    display: grid;
+    align-self: center;
+    padding: 12%;
+    padding-left: 22%;
+
+  }
+  .typeMini{
+    display: grid;
+    align-self: center;
+    padding: 12%;
+    padding-left: 22%;
+  }
+  .cartypes ul li .type {
+    margin-top: 10px; /* Adjust spacing as needed */
+    color: #ffffff;
+    background-color: #d71a21;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* carService-container */
+
+.carService-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10%;
+    margin-left: 7%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    gap: 5%;
+}
+
+.carService-containerC1{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 5%;
+}
+.carService-containerC2{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 5%;
+}
+
+.item1{
+    color: #d71a21;
+    margin-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.item2-container{
+border: 30%;
+border-color: #d71a21;
+font-family:  sans-serif;
+margin-top: 33px;
+    margin-left: 30px;
+
+/* background-color: aqua; */
+}
+.item2one{
+    gap: 6%;
+    grid-template-rows: auto;
+    display: grid;
+    width: 277px;
+    padding-bottom: 30px;
+    border: 2px solid #d71a21;
+    background-color: #ffffff;
+    border-radius: 4%;
+}
+.item2one p{
+    padding-top: 2%;
+    padding-left: 7%;
+    font-weight:lighter;
+    font-size: small;
+    color: #333333;
+
+}
+
+.BoxShutter{
+    background-color: #d71a21;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+.item3{
+justify-content: center;
+align-content: center;
+
+}
+.item3 p{
+    color: rgb(153,153,153);
+}
+.item4{
+    gap: 11%;
+    grid-template-rows: auto;
+    display: grid;
+    width: 282px;
+    padding-bottom: 25px;
+    border: 2px solid #d71a21;
+    background-color: #ffffff;
+    margin-left: 9%;
+    border-radius: 4%;
+}
+.PlusPrivate{
+    background-color: #d71a21;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+.Pluslist{
+    margin-left: 8%;
+    
+}
+.Pluslist li{
+   font-size: small;
+}
+.item5{
+padding: 2%;
+box-sizing: border-box;
+margin-left: 268px;
+}
+.itembutton{
+    padding: 2%;
+    margin-top: -17px;
+    background-color: #ffffff;
+    border: 2px solid rgb(190,190,190);
+    color: rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+/* <!-- Start of Go Safe Go --> */
+.GoSafe{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(248, 244, 244);
+    margin-left: 5px;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    
+}
+.GoSafeC1{
+    display: grid;
+    grid-template-rows: auto;
+}
+.GoSafeC1kR2{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: rgb(153,153,153);
+}
+.GoSafeC1kR2R3{
+    grid-column-end: span 2;
+}
+.GoSafeC2{
+    margin-left: 3%;
+    position: relative;
+    width: 30%;
+    height: auto;
+
+}
+.image-overlay{
+    position: absolute;
+    top: 37%;
+    left: 165%
+
+}
+
+
+/* <!-- Start of SoWhatOthers --> */
+.SoWhatOthers{
+    display: grid;
+    grid-template-rows:auto;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+    padding: 7%;
+    background-image: url("./projects-assets/bg2.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: blur(1px) brightness(0.5); */
+    background-blend-mode: darken;
+}
+.SoWhatOthersitem1{
+    color: #ffffff;
+    text-align: center;
+}
+.SoWhatOthersitem2{
+    color: #ffffff;
+    background-color: #abaaad;
+    margin: 4%;
+    padding: 2%;
+}
+
+/* <!-- Start of Online Reservations --> */
+.OnlineReservations{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.OnlineReservationsC1 p{
+    color: rgb(205, 205, 205);
+}
+.OnlineReservationsC1 h2{
+    color: rgb(106, 106, 106);
+    font-weight:600;
+    /* font-weight: semi-bold; */
+}
+.OnlineReservationsC1{
+    display: grid;
+    grid-template-rows: auto;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 4%;
+    gap: 30px;
+}
+.OnlineReservationsC1Item1{
+
+}
+.h3Online{
+    border-radius: 1%;
+}
+
+
+  
+
+
+  .OnlineReservationsC2Item1 {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-image: url("./projects-assets/bg3.png");
+    background-image: cover;
+    image-rendering: pixelated;
+    margin-right: 8%;
+    height: 350px;
+    position: relative; /* Added position: relative */
+}
+
+.curvedBorder{
+    width: 100%;
+    height: 48px; 
+    background-color: #d71a21;
+    position: relative;
+    padding-bottom: 1px;
+    /* border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 11px; */
+
+
+}
+.curvedBorder h3
+{
+    padding-top: 20px;
+}
+.curvedBorder::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: #d71a21;
+    border-radius: 0 0 50% 50%;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+.OnlineReservationsC2Item1 h4 {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 7%;
+}
+
+
+.Onlinebutton{
+     height: 9%;
+    width: 30%;
+    position: absolute;
+    bottom: 1.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d71a21;
+    color: #ffffff;
+    border: none;
+    padding: 2px 10px;
+}
+.texth4{
+    text-align: center;
+    position: relative;
+    padding: 1%;
+    
+}
+.texth4 h4{
+    font-size: 24px;
+}
+
+
+  
+  .OnlineReservationsC2Item2{
+    margin-top: 8%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 5%;
+} 
+
+ .OnlineReservationsC2{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 14%;
+    gap: 6%;
+}
+.OnlineReservationsC2Item1{
+    background-image: url("./projects-assets/bg3.png");
+    justify-content: space-evenly;
+}
+.OnlineReservationsC2Item2{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 1%;
+} 
+
+
+/* <!-- start of Footer --> */
+.footer{
+    margin-top: 8%;
+width: 100%;
+display: grid;
+grid-template-rows: auto auto;
+gap: 10px;
+background-color: rgb(0, 63, 84);
+color: #ffffff;
+
+}
+.footer{
+    background-color: aquamarine;
+}
+
+
+
+
+
+.footer {
+    width: 150%;
+    
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: rgb(37,40,57);
+    color: #ffffff;
+  }
+  
+  /* First Row */
+  .footerR1 {
+    
+    margin-right: 19%;
+    /* margin: -2%; */
+    justify-content: center;
+    gap: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 20px;
+
+  }
+  
+  .footerR1 hr {
+    border: none;
+    border-top: 2px solid #d71a21; /* Red horizontal line */
+    grid-column: 1 / -1; /* Span the full width of the row */
+     margin: 0; /*Remove default margin */
+  }
+
+  .footer .footerR1Item3 button
+  {
+    padding: 4%;
+    background-color: #d71a21;
+    color: #ffffff;
+    border: 0px;
+    
+  }
+  .footer .footerR1Item3 button:hover{
+    background-color: #ffffff;
+    color: #d71a21;
+    
+  }
+  .footerR1Item1{
+    margin-left: 20%;
+  }
+  .footerR1Item2{
+    margin-left: 25%;
+  }
+  .footerR1Item3{
+    margin-left: 20%;
+    margin-top: -2%;
+  }
+  
+
+  /* Second Row */
+  .footer2 {
+    margin-right: 20%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2%;
+  }
+.footer2Item1 button{
+    padding: 2%;
+    background-color: #d71a21;
+    color: #ffffff;    
+}
+.footer2Item1 button:hover
+{
+    background-color: #ffffff;
+    color: #d71a21;
+}
+.footer2Item1 h4{
+   font-weight: 550;
+}
+.footer2Item1 h5{
+    color: rgb(172,171,177);
+}
+  .footer2Item1 .logos
+  {
+    padding-top: 4%;
+    margin-left: -9px;
+  }
+  .footer2Item1 .logos ul li{
+     display: inline-block;
+  }
+
+  .footer2Item2 ul li{
+    display: block;
+    color: rgb(172,171,177);
+    font-size: medium;
+    margin-bottom: 1%;
+  }
+
+  .footer2Item3 ul li{
+    display: block;
+    color: rgb(172,171,177);
+    font-size: medium;
+    margin-bottom: 1%;
+  }
+  .footer2Item3  ul div li {
+    color: #ffffff;
+    padding-bottom: 3%;
+
+  } 
+  .footer2Item2 ul div li {
+    color: #ffffff;
+    padding-bottom: 3%;
+  } 
+  .footer2Item4  div  {
+    /* color: #ffffff; */
+    padding-bottom: 4%;
+  } 
+
+  
+  /* Add styles for the rest of the elements as needed */
+  
+  .last{
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+}
+.lastfooter{
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        display: grid;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        display: grid;
+    }
+}
+/* @media only screen and (min-width: 480px) {
+    body{
+        display: grid;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        display: grid;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        display: grid;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        display: grid;
+    }
+    /* #mainpic{
+ width: 100%;
+ height: auto;
+ background-size: cover;
+    } */
+    #mainpic img{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+}
